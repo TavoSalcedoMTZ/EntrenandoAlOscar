@@ -8,7 +8,7 @@ public class DebugTest2 : MonoBehaviour
     public DataStruct dataStruct = new();
     
     
-    //public TypeText _typeText;
+  public TypeText _typeText;
 
 
 
@@ -41,26 +41,21 @@ public class DebugTest2 : MonoBehaviour
     */
 
 
-/*
-    public void Update()
+
+    public void Start()
     {
         switch (_typeText)
         {
             case TypeText.Hi:
                 Debug.Log("Hi");
-            break;
+                break;
 
             case TypeText.Bye:
                 Debug.Log("Bye");
                 break;
             case TypeText.Fuck_u:
-                 Debug.Log("Good Morning");
+                Debug.Log("Good Morning");
                 break;
-        }     
+        }
     }
-*/
-
-
-
-
 }
