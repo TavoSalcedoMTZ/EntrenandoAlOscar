@@ -48,13 +48,16 @@ public class DebugTest2 : MonoBehaviour
         {
             case TypeText.Hi:
                 Debug.Log("Hi");
+                Debug.Log("Good Morning");
                 break;
 
             case TypeText.Bye:
                 Debug.Log("Bye");
+                Debug.Log("Hi");
                 break;
             case TypeText.Fuck_u:
                 Debug.Log("Good Morning");
+                Debug.Log("Bye");
                 break;
         }
     }
